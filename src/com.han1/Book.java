@@ -70,7 +70,7 @@ public class Book {
 class x{
     static void ff(){
         System.out.println(Book.PI);
-//        System.out.println(Book.PI);
+        System.out.println(Book.PI);
         System.out.println(Book.PI);
 
     }
