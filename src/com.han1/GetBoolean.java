@@ -13,5 +13,6 @@ public class GetBoolean {
         System.out.println(b1.equals(b2)+"\n"+Boolean.TYPE+"\n"+Integer.TYPE+"\n"+Byte.TYPE);
         Character mychar1=new Character('A');
         System.out.println(Character.isUpperCase(mychar1));
+        System.out.println();
     }
 }
