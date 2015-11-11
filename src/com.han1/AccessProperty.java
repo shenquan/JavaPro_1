@@ -1,5 +1,7 @@
 package com.han1;
 
+import com.han1.core.Test;
+
 /**
  * Created by Administrator on 2015/11/10.
  */
@@ -30,6 +32,7 @@ public class AccessProperty {
         System.out.println("t2.i=" + t2.i);
         t2.call();
         System.out.println("t1.i=" + t1.i);
+        Test tef=new Test();
     }
 
 }
