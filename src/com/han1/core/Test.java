@@ -28,5 +28,6 @@ class Test2 extends Test{
 //    protected void doSomething(){}
     public static void main(String []args){
         Test2 a=new Test2();
+        System.out.println(a.getClass().getName());
     }
 }
