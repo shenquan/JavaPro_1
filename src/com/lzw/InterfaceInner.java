@@ -4,7 +4,7 @@ package com.lzw;
  * Created by Administrator on 2015/11/13.
  */
 interface OutInterface{
-    public void f();
+    void f();
 }
 //定义一个内部类实现OuterInterface接口
 class OuterClass2{
@@ -12,7 +12,7 @@ class OuterClass2{
         InnerClass(String s){
             System.out.println(s);
         }
-        public void f(){
+        public void f(){//重写时不能降低方法的修饰权限范围
             System.out.println("访问内部类中的f()方法");
         }
     }
@@ -27,3 +27,4 @@ public class InterfaceInner {
         outinter.f();
     }
 }
+

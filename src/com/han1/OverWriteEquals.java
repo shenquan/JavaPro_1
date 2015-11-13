@@ -7,11 +7,17 @@ class V{
 
 }
 class Quadrangle{
+    Quadrangle(){
+        System.out.println("哥哥个");
+    }
     public static void draw(Quadrangle  q){
 System.out.println("四边形");
     }
 }
 class Parallelogram extends Quadrangle{
+    public Parallelogram(){
+        super();
+    }
     public static void s(){
         Quadrangle p=new Parallelogram();
         Quadrangle.draw(p);
