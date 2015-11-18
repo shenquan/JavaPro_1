@@ -57,7 +57,7 @@ public class Example_01 {
 
                     } else {
                         Object[] parameters = new Object[]{new String[]{"100", "200", "300"}};
-                        example2 = (Example_01) constructor.newInstance(parameters);
+                        example2 = (Example_01) constructor.newInstance(parameters[0]);
                     }
                 } catch (Exception e) {
                     System.out.println("在创建对象时抛出异常，下面执行setAccessible()方法");
