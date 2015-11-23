@@ -1,4 +1,4 @@
-package com.First;
+package com.first;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

@@ -18,7 +18,7 @@ public class Example_01 {
         this.i = i;
     }
 
-    private Example_01(String... strings) throws NumberFormatException {
+    public Example_01(String... strings) throws NumberFormatException {
         if (0 < strings.length) i = Integer.valueOf(strings[0]);
         if (1 < strings.length) i2 = Integer.valueOf(strings[1]);
         if (2 < strings.length) i3 = Integer.valueOf(strings[2]);//原来这里曾把2写为1s
@@ -28,6 +28,10 @@ public class Example_01 {
         System.out.println("s=" + s + "\n" + "i=" + i + "\n" + "i2=" +i2+ "\n" + "i3=" + i3);
     }
 
+
+
+}
+class Test_01{
     static public final void main(String[] args) {
         Example_01 example = new Example_01();
         Class exampleC = example.getClass();

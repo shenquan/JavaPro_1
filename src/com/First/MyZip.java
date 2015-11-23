@@ -1,4 +1,4 @@
-package com.First;
+package com.first;
 
 import java.io.File;
 import java.io.FileInputStream;

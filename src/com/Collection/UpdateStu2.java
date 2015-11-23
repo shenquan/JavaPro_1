@@ -1,6 +1,5 @@
-package com.Collection;
+package com.collection;
 
-import java.text.CollationElementIterator;
 import java.util.*;
 
 /**

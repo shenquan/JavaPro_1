@@ -9,12 +9,14 @@ import java.lang.reflect.Modifier;
 public class Example_02 {
 
     private float f = 2.1f;
-    private boolean b;
-    private String s;
-    private int i;
-    static private   double j;
-     private final  static  double j1=1;
+    public boolean b;
+    protected String s;
+    public int i;
+    static private double j;
+    private final static double j1 = 1;
 
+}
+class Test2{
     public static void main(String[] args) {
         Example_02 example = new Example_02();
         Class exampleC = example.getClass();
@@ -46,5 +48,4 @@ public class Example_02 {
             }
         }
     }
-
 }
